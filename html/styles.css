@@ -20,17 +20,14 @@ body {
 }
 
 .serverlogo {
-    width: 900px;
-    height: 400px;
-    color: #e7e7e7;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    animation: travel 7s;
-    position: absolute;
-    left: 25vw;
-    top: 12vh;
-    z-index: 1;
-
+  width: 83vw;
+  color: #e7e7e7;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  animation: travel 3s;
+  position: absolute;
+  top: 30vh;
+  z-index: 1;
 }
 
 #logo {
@@ -41,7 +38,6 @@ body {
     background-repeat: no-repeat;
     position: absolute;
     z-index: 1;
-
 }
 
 .tagline {
@@ -56,8 +52,6 @@ body {
   animation: music 3s;
   margin-top: 0px;
   position: relative;
-  bottom: 30vh;
-
 }
 
 .changelog {
@@ -104,33 +98,18 @@ body {
   text-align: center;
   font-weight: 900;
   position: absolute;
-  bottom: 35vh;
+  bottom: 50vh;
   right: 1.75vw;
   z-index: 2;
 }
 
 .discordlogo {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   color: #ffffff;
   position: absolute;
-  bottom: 29vh;
-  right: 9.5vw;
-  z-index: 2;
-}
-
-.discord-url2 {
-  color: #ffffff;
-  font-family: 'Acme', sans-serif;
-  text-align: center;
-  text-decoration: uppercase;
-  font-size: 16px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-weight: 600;
-  position: absolute;
-  top: 600px;
-  right: 70px;
+  bottom: 40vh;
+  right: 6vw;
   z-index: 2;
 }
 
@@ -184,7 +163,7 @@ body {
 }
 
 .blink{
-  animation:blinkingText 2.1s infinite;
+  animation:blinkingText 1.5s infinite;
 }
 
 @keyframes blinkingText{
@@ -443,8 +422,8 @@ body {
     width: 280px;
     height: 100px;
     position: absolute;
-    right: 1vw;
-    bottom: 6vh;
+    right: 4vw;
+    bottom: 5vh;
     z-index: 1;
   }
    
@@ -464,12 +443,12 @@ body {
     z-index: 2;
   }
 
-  @keyframes tickerh {
+  /* @keyframes tickerh {
     0% { transform: translate3d(100%, 0, 0); }
     100% { transform: translate3d(-400%, 0, 0); }
   }
   .artistmove { animation: tickerh linear 20s infinite; }
-  .artistmove:hover { animation-play-state: paused; }
+  .artistmove:hover { animation-play-state: paused; } */
 
   .background-img {
     width:100vw; /* Matches to the Viewport Width */
