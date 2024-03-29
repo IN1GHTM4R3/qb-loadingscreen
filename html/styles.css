@@ -137,6 +137,7 @@ body {
   bottom: 6vh;
   right: 1.25vw;
   z-index: 2;
+  border-radius: 10px;
 }
 
 .control-btns {
